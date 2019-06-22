@@ -1,5 +1,5 @@
-title: "Uhlíková stopa: vzdáte se létání, nebo dětí?"
-perex: "Kalkulačka uhlíkové stopy je věc, která tady bude."
+title: "Nejíst maso a nelétat? Spočítejte si, jak omezit svou uhlíkovou stopu"
+perex: "Klimatická změna se stává čím dál důležitějším tématem v politice i ve společnosti. Podle odborníků proti ní má smysl bojovat i individuálně - omezením vlastní uhlíkové stopy."
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
 styles: []

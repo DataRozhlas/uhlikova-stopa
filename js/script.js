@@ -8,36 +8,43 @@ const uid = Date.now() + String(Math.round(Math.random() * 10000));
 const options = [
   {
     text: "2× týdně vynechám maso ze svého jídelníčku.",
+    desc: "Vegani snižují svou stopu asi o 1000 kg, tj. 20 %.",
     id: 0,
     save: 290,
   },
   {
     text: "Vynechám létání (služební i osobní cesty).",
+    desc: "Počítáno pro dva zpáteční lety za rok - Praha-Londýn a Praha-Bangkok s mezipřistáním v Dubaji. Jde o konzervativní výpočet, podle jiných propočtů je stopa létání 2-3× vyšší, což navyšuje i celkovou uhlíkovou stopu.",
     id: 1,
     save: 1379,
   },
   {
     text: "Do práce budu jezdit do práce veřejnou dopravou, nikoliv autem.",
+    desc: "Cesta autem počítána pro vzdálenost 15 km, spotřebu 7 l benzínu na 100 km, žádné spolucestující a 220 pracovních dní.",
     id: 2,
     save: 890,
   },
   {
     text: "Snížím teplotu vytápění svého domu/bytu o 1 °C.",
+    desc: "Konzervativní výpočet snížení spotřeby energie na vytápění o 4 %; uvádí se i 6 %.",
     id: 3,
     save: 40,
   },
   {
-    text: "Začnu využívat  „zelenou elektřinu“ vyrobenou z obnovitelných zdrojů.",
+    text: "Začnu využívat „zelenou elektřinu“ vyrobenou z obnovitelných zdrojů.",
+    desc: "Vychází z šetření Českého statistického úřadu o spotřebě energií v domácnostech.",
     id: 4,
     save: 612,
   },
   {
     text: "Budu třídit biologicky rozložitelný odpad.",
+    desc: "Průměrná produkce bioodpadu na osobu a rok; třídění do kompostu či hnědé popelnice.",
     id: 5,
     save: 135,
   },
   {
     text: "Vzdám se 14denní dovolené u moře v hotelu a nahradím ji pobytem v penzionu v ČR či SR.",
+    desc: "Počítáno jako dovolená v Thajsku v hotelu all-inclusive oproti dovolené v ČR/SR v penzionu (s dopravou 4 osob autem a celkovou vzdáleností 800 km).",
     id: 6,
     save: 1844,
   },
@@ -96,7 +103,12 @@ class Klikatko extends Component {
             </div>
           ))}
           <hr className="snowfall" />
-          <div id="result">Vybranou cestou se Vaše uhlíková stopa v průměru sníží na <span className="large">{result} kg CO<sub>2</sub></span>, tedy o <span className="large">{Math.round(100-result/5000*100)} %</span>.</div>
+          <div id="result">
+            Vybranou cestou se Vaše uhlíková stopa v průměru sníží na <span className="large">{result} kg CO<sub>2</sub></span>, tedy o <span className="large">{Math.round(100 - result / 5000 * 100)} %</span>.&nbsp;
+            <span className="small">
+              {checked >= 0 && options.filter(option => option.id === checked)[0].desc}
+            </span>
+          </div>
           <div id="button-flex">
             <button
               type="button"
@@ -108,6 +120,7 @@ class Klikatko extends Component {
             </button>
           </div>
         </form>
+        <div className="small right">Data: <a href="https://ci2.co.cz/cs">CI2, o. p. s.</a></div>
       </div>
     );
   }
