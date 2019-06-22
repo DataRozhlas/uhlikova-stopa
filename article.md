@@ -14,9 +14,16 @@ Uhlíková stopa je (obdobně jako ekologická stopa) nepřímým ukazatelem spo
 
 CO JE VŮBEC TA UHLÍKOVÁ STOPA?
 PROČ JE POTŘEBA?
+hlavní důvod: přímá úměra mezi vel. uhl. stopy a dopady každého na klima a změny klimatu. čím větší osobní stopa, tím vyšší příspěvek ke změně klimatu. změna a ubývání biodiv. - dva největší envior problému
+
 JE UHLÍKOVÁ STOPA VĚC, KTERÁTO KLIMA OVLIVŇUJE HODNĚ?
+jeden pohled: přes jednotlivce, druhý přes firmy. ve výsledku jednotlivci nakupují produkty. kdyby lidé používali rady, dopad bude nižší.
+
 OBČAS SE ŘÍKÁ, ŽE OSOBNÍ VKLAD NEPOMŮŽE, ŽE JE POTŘEBA, ABY SE UHLÍKOVÉ STOPĚ VĚNOVALI HLAVNĚ POLITICI. JE TO TAK?
+nemyslím si, že je to jen na politicích. dvacet let se zabývám os. rovinou, musí to jít z obou stran. politici nebudou nic dělat, pokud nebude tlak zespoda, což se teď naštěstí děje. teď jdou politici spíš na ruku spol., které přispívají ke změně klimatu. když se rozhodnu pro zel. elektřinu, musí politik udělat krok decentr., což už je, ale pak funguje trh: čím víc lidí bude chtít zel. el., tím víc ji firmy budou poskytovat. osobní/firemní v ČR půl napůl, jinde ale jinak
+
 CO TY DĚTI?
+to vyjde hodně vysoký, dá se očekávat, že to bude klesat, cílem EU i USA. uhlíková neutralita. řádově stovky tun. jsem vzděláním přírodověc - pokud budeme mít míru porodnosti nižší než 2,05, vymřeme, to je docela jednoduchý pohled. nemyslím si, že cílem enviro politiky by mělo být,  abychom vymřeli. je to ale mediálně zajímavé, když jednotlivci z tohoto důvodu nemají děti, ale sám s tím nesouhlasím.  
 
 <div id="klikatko"></div>
 <br>
