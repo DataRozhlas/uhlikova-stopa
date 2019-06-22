@@ -106,7 +106,7 @@ class Klikatko extends Component {
           <div id="result">
             Vybranou cestou se Vaše uhlíková stopa v průměru sníží na <span className="large">{result} kg CO<sub>2</sub></span>, tedy o <span className="large">{Math.round(100 - result / 5000 * 100)} %</span>.&nbsp;
             <span className="small">
-              {checked >= 0 && options.filter(option => option.id === checked)[0].desc}
+              Číslo zahrnuje i další skleníkové plyny (např. metan či oxid dusný) přepočtené na odpovídající hmotnost CO<sub>2</sub>. {checked >= 0 && options.filter(option => option.id === checked)[0].desc}
             </span>
           </div>
           <div id="button-flex">
